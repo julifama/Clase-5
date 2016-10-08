@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.contenedor-grande {
+  background-image: url("img/fondo.jpg");
+  background-color: #ffffff; }
+  .contenedor-grande .contenedor {
+    max-width: 1000px;
+    margin: 0 auto; }
+
+.titulo {
+  background: rgba(136, 83, 169, 0.5);
+  width: 220px;
+  height: 40px;
+  position: absolute;
+  top: 50px;
+  left: 185px;
+  display: flex;
+  align-items: center; }
+  .titulo h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    display: inline-block; }
+  .titulo span {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 50px 0 10px; }
+
+.imagen {
+  width: 100%;
+  margin-bottom: -3px; }
+  .imagen img {
+    width: 100%; }
+  .imagen a {
+    box-sizing: border-box;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: rgba(48, 192, 204, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 1100px;
+    top: 330px; }
+
+.info {
+  display: flex; }
+  .info .detalles {
+    background: #8853A9;
+    width: 20%;
+    height: 180px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .info .detalles span {
+      font-size: 40px;
+      color: white;
+      text-align: center;
+      display: block; }
+    .info .detalles h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      text-transform: uppercase;
+      color: white;
+      text-align: center;
+      display: block;
+      padding-top: 15px; }
+  .info .ingredientes {
+    width: 55%;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; }
+    .info .ingredientes .ing01 {
+      display: inline-flex;
+      flex-wrap: wrap; }
+      .info .ingredientes .ing01 h5 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px; }
+      .info .ingredientes .ing01 p {
+        width: 270px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        line-height: 24px;
+        color: #B3B3B3;
+        margin-left: 5px; }
+    .info .ingredientes .ing02 {
+      display: flex;
+      align-items: center;
+      margin-top: -20px; }
+      .info .ingredientes .ing02 h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px; }
+      .info .ingredientes .ing02 .perfiles img {
+        border-radius: 50%;
+        margin: 0 3px 0 10px; }
+      .info .ingredientes .ing02 p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        text-align: center;
+        color: #B3B3B3;
+        margin-left: 10px; }
+  .info .calificacion {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .info .calificacion .estrellas {
+      margin: 10px 0 5px 0; }
+      .info .calificacion .estrellas span {
+        color: #25C0CD;
+        font-size: 30px;
+        text-align: center; }
+    .info .calificacion p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      text-align: center;
+      color: #B3B3B3; }
+    .info .calificacion .numero {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      text-align: center;
+      color: black; }
+
+/*# sourceMappingURL=style.css.map */
